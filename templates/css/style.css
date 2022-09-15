@@ -1,0 +1,41 @@
+body{
+    background-color: #EEEEEE;
+}
+.main{
+    padding: 0 50px;
+}
+.main__rightSide-content{
+    overflow: auto;
+    height:70vh;
+}
+h2{
+    margin-bottom: 10px;
+}
+.main__rightSide, .main__leftSide{
+    margin-top: 50px;
+    padding: 0 2vw;
+}
+.main__rightSide-content{
+    padding-right: 30px;
+}
+hr{
+    margin-bottom: 40px;
+}
+.card{
+    margin-top:30px;
+    position: relative;
+}
+.btn-close{
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+.main__rightSide-pagination{
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .main__rightSide-content{
+        height:auto;
+    }
+}
